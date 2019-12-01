@@ -1,2 +1,0 @@
-# sampleconfig
-NGINX Configs

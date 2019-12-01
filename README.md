@@ -12,3 +12,7 @@ As of now the repo contains config files for
 
 Please note that the default user for NGINX, PHP-FPM and Memcached is `www-data`.<br>
 You may change it to any user you like.
+
+If you decide to do that, keep in mind that it might be required to regain permissions for your PHP sessions,
+after performing a PHP update!
+To do so run `chown -R www-data:www-data /var/lib/php`.
